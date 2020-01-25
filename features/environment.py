@@ -5,7 +5,9 @@ def browser_init(context):
     """
     :param context: Behave context
     """
-    context.driver = webdriver.Chrome()
+    chrome_options = webdriver.ChromeOptions()
+    chrome_options.add_argument("--incognito")
+    context.driver = webdriver.Chrome(chrome_options=chrome_options)
     # context.browser = webdriver.Safari()
     # context.browser = webdriver.Firefox()
 

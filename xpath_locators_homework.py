@@ -1,0 +1,10 @@
+#Amazon logo - $x("//i[@aria-label='Amazon']")
+#Email field - $x("//input[@type='email']")
+#Continue button - $x("//input[@id='continue']")
+#Need help link - $x("//span[@class='a-expander-prompt' and contains(text(), 'Need help?')]")
+#Forgot your password link - $x("//a[@id='auth-fpp-link-bottom']")
+#Other issues with Sign-In link - $x("//a[@id='ap-other-signin-issues-link']")
+#Create your Amazon account button - $x("//a[@id='createAccountSubmit']")
+#Conditions of use link - $x("//a[contains(@href, 'condition_of_use')]")
+#Privacy Notice link - $x("//div[@id='legalTextRow']/a[2]")
+
